@@ -34,7 +34,7 @@ class Tarea extends Controller
      */
     public function store(Request $request)
     {
-         echo "<br/>" $request->email;
+        echo "<br/>". $request->email;
     }
 
     /**
